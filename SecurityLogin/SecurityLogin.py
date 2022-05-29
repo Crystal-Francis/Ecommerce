@@ -4,7 +4,7 @@ try:
     if question == 'c':
         username = input('Username: ')
         password = input('Password: ')
-        question_2 = input("Would you like to add information\nabout you in your account?[Y/N]\n")
+        question_2 = input("Would you like to add information\nabout you in your account?[Y/N]\n").lower()
         if question_2 == 'y':
             gender = input("Gender: ")
             print("'If you choose not to answer this question, enter -'")
@@ -40,8 +40,11 @@ try:
                 with open("accounts.txt", "r") as f:
                     accounts = [line.strip() for line in f]
 
-                second_line = accounts[2:7]
-                print(second_line)
+                print(accounts[2])
+                print(accounts[3])
+                print(accounts[4])
+                print(accounts[5])
+                
         else:
             print('Wrong password')
     else:
