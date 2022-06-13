@@ -36,8 +36,12 @@ try:
         password_checking = input("Password: ")
         if (password_checking in file.read()):
             print("Logged in")
-            question_3 = input("Would you like to see your info[Y/N]:\n").lower()
-            if question_3 == 'y':
+            question_3 = input("you can explore your account! \nif you need help with what commands to type, enter 'help':\n").lower()
+            if question_3 == '/help':
+                print('[S]ee your account details and information\n[E]dit you account information\n[L]og out ')
+            elif question_3 == 'l':
+                print(quit())
+            elif question_3 == 's':
                 with open("accounts.txt", "r") as f:
                     accounts = [line.strip() for line in f]
 
@@ -45,6 +49,36 @@ try:
                 print(accounts[3])
                 print(accounts[4])
                 print(accounts[5])
+            elif question_3 == 'e':
+                file = open("accounts.txt")
+                re_enter_uname = input('Re-enter username: ')
+                if (username_checking in file.read()):
+                    print("")
+                else:
+                    print("Username does not exist")
+                    print(quit())
+                file = open("accounts.txt")
+                re_enter_pword = input("Re-enter password: ")
+                if (password_checking in file.read()):
+                    gender = input("Gender: ")
+                    print("'If you choose not to answer this question, enter -'")
+                    location = input('Location: ')
+                    birthdate = input("Birthdate: ")
+                    birth_year = int(input("Birth year: "))
+                    birthday_pass_or_not = input("Has your birthday passed?[Y/N]: \n").lower()
+                    if birthday_pass_or_not == 'y':
+                        age = 2022 - birth_year
+                        text_file = open("accounts.txt", "w")
+                        text_file.write(
+                            f"Username: {re_enter_uname}\nPassword: {re_enter_pword}\nGender: {gender}\nBirthday: {birthdate} {birth_year}\nLocation: {location}\nAge: {age}")
+                    elif birthday_pass_or_not == 'n':
+                        age = 2021 - birth_year
+                        text_file = open("accounts.txt", "w")
+                        text_file.write(f"Username: {re_enter_uname}\nPassword: {re_enter_pword}\nGender: {gender}\nBirthday: {birthdate} {birth_year}\nLocation: {location}\nAge: {age}")
+                else:
+                    print('Wrong password')
+            else:
+                print("Please re-run the program and enter 'help'")
 
         else:
             print('Wrong password')
