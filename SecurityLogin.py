@@ -37,7 +37,7 @@ try:
         if (password_checking in file.read()):
             print("Logged in")
             question_3 = input("you can explore your account! \nif you need help with what commands to type, enter 'help':\n").lower()
-            if question_3 == '/help':
+            if question_3 == 'help':
                 print('[S]ee your account details and information\n[E]dit you account information\n[L]og out ')
             elif question_3 == 'l':
                 print(quit())
