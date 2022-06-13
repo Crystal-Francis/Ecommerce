@@ -50,15 +50,16 @@ try:
                 print(accounts[4])
                 print(accounts[5])
             elif question_3 == 'e':
+                print('Note: The username and password can be changed as well. If you do not want so,\n you may re-enter your Username and Password')
                 file = open("accounts.txt")
-                re_enter_uname = input('Re-enter username: ')
+                re_enter_uname = input('Username: ')
                 if (username_checking in file.read()):
                     print("")
                 else:
                     print("Username does not exist")
                     print(quit())
                 file = open("accounts.txt")
-                re_enter_pword = input("Re-enter password: ")
+                re_enter_pword = input("Password: ")
                 if (password_checking in file.read()):
                     gender = input("Gender: ")
                     print("'If you choose not to answer this question, enter -'")
@@ -69,8 +70,7 @@ try:
                     if birthday_pass_or_not == 'y':
                         age = 2022 - birth_year
                         text_file = open("accounts.txt", "w")
-                        text_file.write(
-                            f"Username: {re_enter_uname}\nPassword: {re_enter_pword}\nGender: {gender}\nBirthday: {birthdate} {birth_year}\nLocation: {location}\nAge: {age}")
+                        text_file.write(f"Username: {re_enter_uname}\nPassword: {re_enter_pword}\nGender: {gender}\nBirthday: {birthdate} {birth_year}\nLocation: {location}\nAge: {age}")
                     elif birthday_pass_or_not == 'n':
                         age = 2021 - birth_year
                         text_file = open("accounts.txt", "w")
