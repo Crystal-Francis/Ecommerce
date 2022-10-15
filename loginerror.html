@@ -13,14 +13,15 @@
         <img src="images/logo.png" alt="logo" class="logo">
         <br><br><br><br><br><br>
         <h1 class="login-title">Login</h1>
-        <form action="loginconn.php" name="login" method="post">
-        <input type="text" class="input" placeholder="&nbsp;Username" maxlength="15"
-        name="username">
+        <form action="loginconn.php" method="post" name="login">
+        <input type="text" class="input" style="border: 2px solid red;"
+        placeholder="&nbsp;Username" maxlength="15" name="username">
         <input type="password" class="input" placeholder="&nbsp;Password" maxlength="15"
-        style="top: 520px;" name="password">
-    </form>
-        <input type="button" class="login-button" value="Login"
-        onclick="register()">
+        style="top: 520px;border: 2px solid red;" name="password">
+        <p style="color: red; position: absolute; top: 570px; right: 335px; font-family: 'Lexend deca';"
+        >Username or password was incorrect</p>
+    </form>2
+        <input type="button" class="login-button" onclick="register()" value="Login">
         <p class="option">Don't have an account? <a href="signup.php">Sign up!</a> it's free</p>
     </body>
 </html>
