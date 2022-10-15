@@ -1,0 +1,381 @@
+.companylogo {
+    height: 140px;
+    position: absolute;
+    top: 0px;
+    right: 1000px;
+    z-index: 9;
+}
+.space {
+    width: 50%;
+    height: 140px;
+    position: absolute;
+    top: 0px;
+    z-index: -9;
+}
+.text {
+    position: absolute;
+    top: 60px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-family: Comfortaa;
+}
+.productpic {
+    position: absolute;
+    top: 325px;
+    height: 425px;
+    right: -55px;
+    transform: rotate(40deg);
+    z-index: 9;
+}
+.name {
+    font-size: 50px;
+    position: absolute;
+    top:320px;
+    right: 957px;
+    font-family: Comfortaa;
+}
+.about {
+    font-size: 30px;
+    position: absolute;
+    top:370px;
+    right: 725px;
+    font-family: Comfortaa;
+}
+.btndefault {
+    position: absolute;
+    top: 530px;
+    right: 1280px;
+    background-color: rgb(153, 163, 167);
+    color: white;
+    border-radius: 25px;
+    height: 50px;
+    width: 170px;
+    font-size: 19.5px;
+    border: 0ch;
+    z-index: 9;
+}
+.btndefault:hover {
+    background-color: rgb(73, 73, 74);
+}
+.r-textbox {
+  height: 35px;
+  width: 400px;
+  border-radius: 5px;
+  font-size: 17px;
+}
+.title {
+    position: absolute;
+    font-size: 95px;
+    right: 230px;
+    font-family: Comfortaa;
+}
+.hr {
+    border-top: dotted 4px;
+}
+.rectangle {
+    position: relative;
+    height: 520px;
+    width: 1490px;
+    background-color: rgb(134, 135, 126);
+    z-index: 9;
+}
+.shoppingcart {
+  position: absolute;
+  top: 0px;
+  height: 50px;
+}
+.product1 {
+    height:      455px;
+    width: 320px;
+    background-color:white;
+    position: absolute;
+    border-radius: 25px;
+    border: 0px;
+}
+.product1:hover {
+    border: 2px solid black;
+}
+.productpics {
+    height: 200px;
+}
+.cart {
+    height: 40px;
+    position: absolute;
+    top: 350px;
+    right: 135px;
+    box-shadow: 0 5px 30px rgb(66, 141, 239);
+    border-radius: 25px;
+}
+.cart:hover {
+  box-shadow: 0 5px 30px rgb(6, 48, 104);
+}
+.signupbox {
+  border: 2px solid gray;
+  height: 650px;
+  z-index: 9;
+  position: absolute;
+  background-color: white;
+  width: 600px;
+  top: 190px;
+  right: 470px;
+  border-radius: 20px;
+}
+.question {
+  font-family: 'Open sans';
+}
+.rform {
+  font-family: Comfortaa;
+  font-size: 35px;
+}
+.registration  {
+  font-size: 22.5px;
+  font-family: Comfortaa;
+  position: absolute;
+  left: 100;
+}
+.signinbtn {
+  border-radius: 20px;
+  height: 40;
+  width: 120;
+  background-color: rgb(172, 179, 175);
+  border: 2px solid rgb(144, 144, 144);
+  color: white;
+  font-size: 17.5px;
+  font-family: Comfortaa;
+}
+.signinbtn:hover {
+  background-color: rgb(129, 138, 130);
+}
+body {
+
+}
+.cartsymbol {
+  position: absolute;
+  height: 50px;
+  top: 48px;
+  right: 180px;
+}
+.rectangle2 {
+    position: absolute;
+    top: 877px;
+    right: 0px;
+    height: 778px;
+    width: 1520px;
+    background-color: rgb(241, 241, 241);
+}
+.cartbox {
+  background-color: white;
+  position: absolute;
+  height: 670px;
+  width: 1516.3px;
+  top: 10px;
+  right: 0px;
+  font-size: 25px;
+  font-family: Comfortaa;
+}
+
+.cartbox2 {
+  background-color: white;
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  top: 100px;
+  right: 630px;
+}
+.shpbag {
+  height: 250px;
+}
+div.productname {
+    background-color: white;
+    overflow: scroll;
+    width: 240px;
+    height: 110px;
+    font-family: Comfortaa;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+.keyboard1 {
+    height: 130px;
+}
+.box1 {
+    position: absolute;
+    top: 70px;
+    right: 155px;
+    height: 45px;
+    width: 500px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+.rectangle3 {
+    position: absolute;
+    height: 590px;
+    width: 800px;
+    background-color: rgb(152, 165, 167);
+    top: 2020px;
+    right: 320px;
+    border: 3px solid white;
+    border-radius: 25px;
+}
+.btn2 {
+    position: absolute;
+    top: 510px;
+    right: 490px;
+    background-color: rgb(251, 220, 118);
+    color: whitesmoke;
+    border-radius: 25px;
+    height: 50px;
+    width: 170px;
+    font-size: 19.5px;
+    border: 0ch;
+    box-shadow: 0 5px 20px rgb(110, 110, 110);
+}
+.btn2:hover {
+    background-color: rgb(244, 193, 84);
+    box-shadow: 0 5px 20px rgb(13, 35, 63);
+}
+.menu {
+    font-size: 16px;
+    font-family: Roboto Slab, serif;
+    background-color: rgba(88, 185, 233, 0);
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 10;
+    height: 21;
+  }
+  .menu input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+    left: -9999px;
+  }
+  .menu a, .menu .toggle-menu {
+    color: white;
+    text-decoration: none;
+    -webkit-transition: .3s all ease;
+    transition: .3s all ease;
+  }
+  .menu a:hover, .menu .toggle-menu:hover {
+    color: #E3DFE6;
+  }
+  .menu .toggle-menu {
+    display: none;
+    padding-left: 10px;
+  }
+  .menu .toggle-menu:hover {
+    cursor: pointer;
+  }
+  @media screen and (max-width: 2000px) {
+    .menu .toggle-menu {
+      display: inline-block;
+    }
+  }
+  @media screen and (max-width: 2000px) {
+    .menu .nav {
+      background: rgb(135, 133, 132);
+      position: fixed;
+      height: 100%;
+      width: 320px;
+      top: 0px;
+      left: 0;
+      -webkit-transition: .3s all ease;
+      transition: .3s all ease;
+      -webkit-transform: translateX(-320px);
+              transform: translateX(-320px);
+      overflow-y: auto;
+      font-size: 18px;
+    }
+    .menu #toggle-responsive:checked ~ .nav {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+  }
+  .menu label.toggle {
+    color: transparent;
+    position: relative;
+  }
+  .menu label.toggle:hover {
+    cursor: pointer;
+  }
+  .menu label.toggle:hover:before {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent transparent transparent #E3DFE6;
+    border-width: 5.33333px;
+  }
+  .menu label.toggle:before {
+    content: "";
+    font-size: 16px;
+    -webkit-transition: .3s all ease;
+    transition: .3s all ease;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    -webkit-transform: translateY(0%) rotate(90deg);
+            transform: translateY(0%) rotate(90deg);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent transparent transparent white;
+    border-width: 5.33333px;
+  }
+  @media screen and (max-width: 2000px) {
+    .menu label.toggle:before {
+      left: 15px;
+    }
+  }
+  .menu ul {
+    position: relative;
+  }
+  .menu ul,
+  .menu ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .menu ul > li {
+    position: relative;
+    padding: 10px;
+  }
+  @media screen and (min-width: 2001px) {
+    .menu ul > li {
+      display: inline;
+      padding: 0 10px;
+    }
+  }
+  .menu ul > li > ul {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    background: #C06574;
+    display: none;
+  }
+  @media screen and (max-width: 2000px) {
+    .menu ul > li > ul {
+      position: relative;
+      left: -10px;
+      background: rgba(0, 0, 0, 0.1);
+      width: calc(100% + 20px);
+    }
+  }
+  @media screen and (min-width: 2001px) {
+    .menu ul > li > ul > li {
+      display: block;
+      white-space: nowrap;
+    }
+    .menu ul > li > ul > li label.toggle:before {
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%);
+    }
+    .menu ul > li > ul ul {
+      left: 100%;
+      top: 0;
+    }
+  }
+  .menu ul > li input[type="checkbox"]:checked + ul {
+    display: block;
+  }
